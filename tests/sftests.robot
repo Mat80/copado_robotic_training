@@ -42,15 +42,3 @@ Entering A Lead
     VerifyText                Tina Smith
     VerifyText                Manager
     VerifyText                Growmore
-
-Delete Tina Smith's Lead
-    [tags]                    Lead                        Git Repo Exercise
-    LaunchApp                 Sales
-    ClickText                 Leads
-    VerifyText                Recently Viewed             timeout=120s
-    
-    Wait Until Keyword Succeeds   1 min   5 sec   ClickText    Tina Smith
-    ClickText                    Show more actions
-    ClickText                    Delete
-    ClickText                    Delete
-    ClickText                    Close

@@ -42,3 +42,4 @@ Entering A Lead
     VerifyText                Tina Smith
     VerifyText                Manager
     VerifyText                Growmore
+    ClickText
